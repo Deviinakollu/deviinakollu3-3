@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dell Laptops</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #444;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        .product-section {
+            background-image: url('dell-laptops.jpg');
+            background-size: cover;
+            color: #fff;
+            text-align: center;
+            padding: 50px;
+            /* Add a semi-transparent overlay to the background image to improve text readability */
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+
+
+        .video-section {
+            background-color: #fff;
+            text-align: center;
+            padding: 30px;
+            /* Add a border and box-shadow to separate the video section from the background */
+            border: 1px solid #ccc;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .text-section, footer {
+            text-align: center;
+            padding: 30px;
+            background-color: #333;
+            color: #fff;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            /* Add a darker border to enhance the button's visibility */
+            border: 2px solid #0056b3;
+        }
+
+        .button:hover {
+            /* Darken the background color on hover for a visual effect */
+            background-color: #0056b3;
+        }
+
+
+        input[type="text"] {
+            padding: 10px;
+            margin: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Dell Laptops</h1>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#products">Products</a>
+        <a href="#video">Video</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="home">
+        <div class="product-section">
+            <h2>Discover the Latest Dell Laptops</h2>
+            <p>Explore our high-performance laptops with cutting-edge technology.</p>
+            <a href="#products" class="button">View Products</a>
+        </div>
+    </section>
+
+    <section id="products">
+        <div class="text-section">
+            <h2>Our Products</h2>
+            <p>Choose from a wide range of Dell laptops to suit your needs.</p>
+        </div>
+        <!-- Add product details and images here -->
+    </section>
+
+    <section id="video">
+        <div class="video-section">
+            <h2>Watch Our Latest Video</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/your_video_id" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <section id="contact">
+    <div class="text-section">
+        <h2>Contact Us</h2>
+        <p>Have questions or need assistance? Contact our support team.</p>
+        <form>
+            <label for="name">Your Name</label>
+            <input type="text" id="name" placeholder="Your Name" required>
+            <br>
+
+            <label for="email">Your Email</label>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <br>
+
+            <label for="message">Your Message</label>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <br>
+
+            <input type="submit" class="button" value="Submit">
+        </form>
+    </div>
+</section>
+
+
+    <footer>
+        <p>&copy; 2023 Dell Laptops. All rights reserved.</p>
+    </footer>
+</body>
+</html>
